@@ -17,7 +17,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
-	@RequestMapping("/hello") //////
+	@RequestMapping("/hello") ////
 	public String getMethod() { 
 		return "hello!!!!!"; 
 	}
