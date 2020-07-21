@@ -17,9 +17,9 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
-	@RequestMapping("/hello") ////
-	public String getMethod() { 
-		return "hello!!!!!"; 
+	@RequestMapping("/hello") /////
+	public String getMethod() { //////
+		return "hello!!!!!"; /////
 	}
 
     // 매일 5시 30분 0초에 실행한다.
